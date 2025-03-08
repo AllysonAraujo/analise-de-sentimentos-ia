@@ -1,0 +1,114 @@
+{
+    "documents": [
+        {
+            "id": "id__5755",
+            "sentiment": "positive",
+            "confidenceScores": {
+                "positive": 0.98,
+                "neutral": 0.02,
+                "negative": 0.01
+            },
+            "sentences": [
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.94,
+                        "neutral": 0.05,
+                        "negative": 0.01
+                    },
+                    "offset": 0,
+                    "length": 73,
+                    "text": "Eu, Allyson, estou muito animado estudando para o mais novo decola tech! ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 73,
+                    "length": 88,
+                    "text": "Cada dia de aprendizado me deixa mais motivado e confiante para essa nova oportunidade. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 85,
+                            "length": 11,
+                            "text": "aprendizado",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/0"
+                                },
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 111,
+                            "length": 8,
+                            "text": "motivado",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 122,
+                            "length": 9,
+                            "text": "confiante",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.97,
+                        "neutral": 0.01,
+                        "negative": 0.01
+                    },
+                    "offset": 161,
+                    "length": 88,
+                    "text": "Tenho me dedicado bastante, revisando conteúdos e buscando melhorar minhas habilidades. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 249,
+                    "length": 104,
+                    "text": "Mal posso esperar para colocar em prática tudo o que estou aprendendo e dar o meu melhor nesse desafio!\n",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2025-01-01"
+}
